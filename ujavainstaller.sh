@@ -122,13 +122,6 @@ echo "OK"
 # All checks are done at this point
 
 
-# Purge OpenJDK if the option was provided
-if [ "$REMOVE_OPENJDK" = true ]; then
-   echo "Purging OpenJDK... "
-   apt-get purge -q openjdk-\*
-fi
-
-
 # Begin Java installation
 
 # Extract the archive
@@ -157,6 +150,13 @@ update-alternatives --install "/usr/bin/javac" "javac" "$JDK_LOCATION/bin/javac"
 update-alternatives --set java $JDK_LOCATION/jre/bin/java >> /dev/null
 update-alternatives --set javac $JDK_LOCATION/bin/javac >> /dev/null
 echo "OK"
+
+# Purge OpenJDK if the option was provided
+if [ "$REMOVE_OPENJDK" = true ]; then
+   echo "Purging OpenJDK... "
+   apt-get purge -q openjdk-\*
+fi
+
 
 # Verify and exit installation
 echo -n "Verifying Java installation... "
