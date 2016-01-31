@@ -54,6 +54,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.72-b15, mixed mode)
 adam@Adam-Laptop ~/Temp $ 
 ```
 
+See my article about [how to install Java on Ubuntu](http://adamscheller.com/linux/how-to-install-java-on-ubuntu/) with UbuntuJavaInstaller.
+
 ## License
 The MIT License (MIT)
 
