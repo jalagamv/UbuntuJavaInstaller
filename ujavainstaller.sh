@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # ujavainstaller.sh - Ubuntu Java Installer (Oracle JDK)
-# Copyright 2016 Adam Scheller (adamscheller.com)
-# To get the newest version of the script or to contribute, visit:
-# https://github.com/jalagamv/UbuntuJavaInstaller
 # Licensed under Licence 
 
 ORACLE_DOWNLOAD_LINK="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
