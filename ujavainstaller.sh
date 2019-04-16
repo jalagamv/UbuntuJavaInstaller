@@ -4,7 +4,7 @@
 # Copyright 2016 Adam Scheller (adamscheller.com)
 # To get the newest version of the script or to contribute, visit:
 # https://github.com/jalagamv/UbuntuJavaInstaller
-# Licensed under MIT (see LICENSE file distributed with this package) 
+# Licensed under Licence 
 
 ORACLE_DOWNLOAD_LINK="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
 
