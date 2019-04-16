@@ -34,8 +34,8 @@ and execute it with root permissions with ```sudo ./ujavainstaller.sh```
 The ```jdk-8u72-linux-x64.tar.gz``` file was previously downloaded from the [Oracle Website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 ```
-adam@Adam-Laptop ~/Temp $ chmod +x ujavainstaller.sh 
-adam@Adam-Laptop ~/Temp $ sudo ./ujavainstaller.sh jdk-8u72-linux-x64.tar.gz 
+root@ip-172-31-32-164 ~/Temp $ chmod +x ujavainstaller.sh 
+root@ip-172-31-32-164 ~/Temp $ sudo ./ujavainstaller.sh jdk-8u72-linux-x64.tar.gz 
 
 Ubuntu Java Installer
 
@@ -51,7 +51,7 @@ java version "1.8.0_72"
 Java(TM) SE Runtime Environment (build 1.8.0_72-b15)
 Java HotSpot(TM) 64-Bit Server VM (build 25.72-b15, mixed mode)
 
-adam@Adam-Laptop ~/Temp $ 
+root@ip-172-31-32-164 ~/Temp $ 
 ```
 
 See my article about [how to install Java on Ubuntu](http://adamscheller.com/linux/how-to-install-java-on-ubuntu/) with UbuntuJavaInstaller.
